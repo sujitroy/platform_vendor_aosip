@@ -94,4 +94,12 @@
          Internet network (except when the current default network is mobile,
          in which case a DUN network will be used if required). -->
     <bool name="config_tether_upstream_automatic">true</bool>
+    <!-- Component name for default assistant on this device -->
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+
+    <!-- System font packages (overlay in vendor) -->
+    <string-array name="config_fontPackages" translatable="false">
+        <item>com.invictrix.fonts</item>
+    </string-array>
+
 </resources>

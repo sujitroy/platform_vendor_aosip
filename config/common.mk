@@ -194,6 +194,11 @@ PRODUCT_PACKAGES += \
     wget \
     zip
 
+
+# Fonts packages
+PRODUCT_PACKAGES += \
+    invictrix-fonts
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
