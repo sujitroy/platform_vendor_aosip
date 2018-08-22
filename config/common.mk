@@ -135,6 +135,11 @@ PRODUCT_PACKAGES += \
     Development \
     Profiles
 
+# Turbo
+PRODUCT_PACKAGES += \
+    Turbo \
+    turbo.xml
+
 # Optional packages
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
