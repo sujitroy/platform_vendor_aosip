@@ -117,6 +117,10 @@ ifeq ($(WITH_TWRP),true)
 include vendor/lineage/config/twrp.mk
 endif
 
+# SubstratumSignature Package
+PRODUCT_COPY_FILES += \
+     vendor/colt/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
+
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
