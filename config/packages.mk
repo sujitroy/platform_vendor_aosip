@@ -3,12 +3,10 @@ PRODUCT_PACKAGES += \
     CustomDoze \
     Gallery2 \
     LatinIME \
-    Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
     messaging \
-    WeatherClient \
-    Updater
+    WeatherClient 
 
 # Lawnchair Default Configuration
 PRODUCT_PACKAGES += \
